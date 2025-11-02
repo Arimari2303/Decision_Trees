@@ -1,0 +1,47 @@
+{
+    "tratamiento": {
+        "n_tratados": 150,
+        "n_control": 147
+    },
+    "efectos": {
+        "ols": -0.005743175711894981,
+        "random_forest": 30.261154367640557,
+        "heterogeneidad_std": 3.6405807347995394
+    },
+    "top_caracteristicas": [
+        {
+            "feature": "restbp",
+            "importance": 0.9917792556991494
+        },
+        {
+            "feature": "thalach",
+            "importance": 0.0028581924077144424
+        },
+        {
+            "feature": "oldpeak",
+            "importance": 0.0021996000516429047
+        },
+        {
+            "feature": "age",
+            "importance": 0.001305468756648716
+        },
+        {
+            "feature": "exang",
+            "importance": 0.0006639850909232192
+        }
+    ],
+    "terciles": {
+        "bajo": {
+            "n": 99,
+            "efecto_medio": 26.400804773710274
+        },
+        "medio": {
+            "n": 99,
+            "efecto_medio": 30.017368888473126
+        },
+        "alto": {
+            "n": 99,
+            "efecto_medio": 34.36528944073826
+        }
+    }
+}
